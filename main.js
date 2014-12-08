@@ -33,9 +33,3 @@ canvas.addEventListener('mousedown', function(e) {
   putPoint(e);
 }, false);
 
-document.getElementById('download').addEventListener('click', download, false);
-
-function download() {
-    var dt = canvas.toDataURL('image/png', 1.0);
-    this.href = dt; //this may not work in the future..
-}
