@@ -49,6 +49,46 @@ body {
   float:right;
 }
 
+#options {
+  margin-right:20px;
+  float:right;
+}
+
+#save {
+  display:inline-block;
+  height:30px;
+  padding:8px;
+  color:white;
+  background-color: #434343;
+}
+
+
+#clear {
+  display:inline-block;
+  height:30px;
+  padding:8px;
+  color:white;
+  background-color: #434343;
+}
+
+#save:hover {
+  display:inline-block;
+  height:30px;
+  padding:8px;
+  color:white;
+  background-color: #818181;
+}
+
+
+#clear:hover {
+  display:inline-block;
+  height:30px;
+  padding:8px;
+  color:white;
+  background-color: #818181;
+}
+
+
 #color {
   width:30px;
   height:30px;
