@@ -13,6 +13,10 @@ function clear() {
   location.reload();
 }
 
-saveBtn.addEventListener('click', download, false);
-clearBtn.addeventListener('click', clear, false);
+saveBtn.addEventListener('click', function(e) {
+  download();
+});
+clearBtn.addEventListener('click', function(e) {
+  clear();
+});
 
